@@ -1,8 +1,10 @@
-﻿internal class Program
+﻿using Extensions.Extensions;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        DateTime dt = new DateTime(2023, 06, 14, 15, 04, 33);
-        Console.WriteLine(dt.ElapsedTime());
+        string s1 = "Good morning dear!";
+        Console.WriteLine(s1.Cut(7));
     }
 }
